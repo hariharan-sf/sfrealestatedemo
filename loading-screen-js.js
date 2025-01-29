@@ -1,4 +1,4 @@
-gsap.to(".re-loading-logo", 1.5, {
+gsap.to(".re-loading-logo", 2, {
     opacity: 0,
     duration: 0.5,
     onComplete: () => {
