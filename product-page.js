@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const targetButton = document.querySelector(".sf-car-cart-car.sf-car-cart-car-adder.sf-anim");
         if (targetButton) {
             targetButton.click();
+            console.log("added");
         }
     });
 });
